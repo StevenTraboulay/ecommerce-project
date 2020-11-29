@@ -45,7 +45,7 @@ router.delete('/:id', (req, res) => {
     },
   })
   .then((category) => res.status(200).json(category))
-  .catch((err) => res.status(400).json(err));e
+  .catch((err) => res.status(400).json(err));
 });
 
 module.exports = router;
